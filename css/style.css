@@ -1,0 +1,277 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	padding: 0;
+	margin: 0;
+	height: 85px;
+	background-color: black;
+}
+
+nav {
+	margin-left: 120px;
+}
+
+nav a {
+	text-decoration: none;
+	color: lightgrey;
+	display: inline-block;
+	font-family: sans-serif;
+	padding: 35px 10px 0px 15px;
+	font-size: 16px;
+	height: 85px;
+}
+
+nav a:hover {
+	border-top: 5px solid lightblue;
+	padding-top: 30px;
+	color: lightblue;
+}
+
+/* the section 2*/
+.section2 {
+	height: 400px;
+	background-color: lightgrey;
+}
+
+.centralRow {
+	margin: 0 130px 0 120px;
+	padding-top: 30px;
+}
+
+.socialMedia {
+	display: inline-block;
+	float: right;
+}
+
+.socialMedia {
+	margin: 0 0 0 15px;
+}
+
+#linkedin {
+	background-image: url('../images/linkedin-grey.png');
+	height: 48px;
+	width: 48px;
+	float: left;
+	margin-right: 10px;
+}
+
+#linkedin:hover {
+	background-image: url('../images/linkedin.png');
+}
+
+#twitter {
+	background-image: url('../images/twitter-grey.png');
+	height: 48px;
+	width: 48px;
+	float: left;
+	margin-right: 10px;
+}
+
+#twitter:hover {
+	background-image: url('../images/twitter.png');
+}
+
+#facebook {
+	background-image: url('../images/facebook-grey.png');
+	height: 48px;
+	width: 48px;
+	float: left;
+	margin-right: 10px;
+}
+
+#facebook:hover {
+	background-image: url('../images/facebook.png');
+}
+
+#rss {
+	background-image: url('../images/rss-grey.png');
+	height: 48px;
+	width: 48px;
+	float: left;
+	margin-right: 10px;
+}
+
+#rss:hover {
+	background-image: url('../images/rss.png');
+}
+
+#mainPoster {
+	margin-top: 30px;
+	text-align: center;
+}
+
+/* the section 3 */
+.section3 {
+	height: 420px;
+	background-color: white;
+}
+
+.rqBox {
+	margin: 120px auto 0 auto;
+	border: 1px solid grey;
+	height: 90px;
+	width: 960px;
+}
+
+.rqBox p {
+	float: left;
+	display: block;
+	width: 700px;
+	padding: 15px 20px 10px 20px;
+	font-family: sans-serif;
+	font-size: 18px;
+
+}
+
+.rqBox img {
+	float: right;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+.homeBox1, .homeBox2, .homeBox3 {
+	margin-top: 50px;
+	width: 230px;
+	height: 350px;
+	float: left;
+	margin-left: 90px;
+}
+
+.homeBox1 h3, .homeBox2 h3, .homeBox3 h3 {
+	font-family: sans-serif;
+	font-size: 22px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+.homeBox1 {
+	margin-left: 240px;
+}
+
+.homeBox1 img, .homeBox2 img, .homeBox3 img {
+	border: 5px solid lightgrey;
+}
+
+.homeBox1 p, .homeBox2 p, .homeBox3 p {
+	margin-top: 18px;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+.link a {
+	margin-top: 100px;
+	text-decoration: none;
+	color: blue;
+}
+
+.link a:hover{
+	text-decoration: underline;
+	color: blue;
+}
+
+/* footer */
+footer {
+	height: 400px;
+	background-color: black;
+	color: darkgrey;
+	font-family: sans-serif;
+}
+
+.blogroll .textWidget .metaWidget {
+	float: left;
+
+}
+
+.blogroll {
+	margin-left: 240px;
+	padding-top: 30px;
+	width: 200px;
+	float: left;
+}
+
+.blogroll h4 {
+	font-weight: normal;
+	font-size: 20px;
+	padding-bottom: 15px;
+	color: white;
+	border-bottom: 1px solid darkgrey;
+}
+
+.blogroll p {
+	padding: 5px 0 5px 0;
+	font-size: 12px;
+	color: darkgrey;
+	border-bottom: 1px solid darkgrey;
+}
+
+.textWidget {
+	margin-left: 50px;
+	padding-top: 30px;
+	width: 350px;
+	float: left;
+}
+
+.textWidget h4 {
+	font-weight: normal;
+	font-size: 20px;
+	padding-bottom: 15px;
+	color: white;
+	border-bottom: 1px solid darkgrey;
+}
+
+.textWidget p {
+	padding: 5px 0 5px 0;
+	font-size: 12px;
+	color: darkgrey;
+	font-size: 10px;
+}
+
+.metaWidget {
+	margin-left: 50px;
+	padding-top: 30px;
+	width: 200px;
+	float: left;
+}
+
+.metaWidget h4 {
+	font-weight: normal;
+	font-size: 20px;
+	padding-bottom: 15px;
+	color: white;
+	border-bottom: 1px solid darkgrey;
+}
+
+.metaWidget p {
+	padding: 5px 0 5px 0;
+	font-size: 12px;
+	color: darkgrey;
+	border-bottom: 1px solid darkgrey;
+}
+
+.buttom {
+	clear: both;
+}
+
+.buttom p:first-child {
+	font-size: 12px;
+	display: block;
+	float: left;
+	padding-top: 50px;
+	margin-left: 240px;
+}
+
+.buttom p:nth-child(2) {
+	font-size: 12px;
+	display: block;
+	float: right;
+	padding-top: 40px;
+	margin-right: 350px;
+}
+
+.buttom p:nth-child(2) a {
+	color: skyblue;
+	text-decoration: none;
+}
